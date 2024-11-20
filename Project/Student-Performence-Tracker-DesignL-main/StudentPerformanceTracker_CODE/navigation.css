@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 60px; /* Increased height for better aesthetics */
+    line-height: 60px; /* Match height for vertical centering */
+    background-color: #222; /* Darker background */
+    font-family: 'Josefin Sans', sans-serif; /* Changed to a more modern font */
+    font-size: 15px; /* Slightly larger font size */
+}
+
+li {
+    float: right;
+}
+
+a {
+    display: block;
+    padding: 0 30px; /* Increased padding for better spacing */
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+a:hover {
+    background-color: #156ee2;
+}
+
+.active a {
+    background-color: #156ee2;
+}
+
+.logo a {
+    font-family: 'Allura', cursive;
+    font-size: 36px; /* Increased logo size for prominence */
+    color: #ffff00;
+    position: relative; /* Changed to relative for better positioning */
+    top: 10px; /* Adjusted position for centering */
+}

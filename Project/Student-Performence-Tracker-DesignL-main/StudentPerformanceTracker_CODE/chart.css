@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif; /* Added a more common sans-serif font */
+    box-sizing: border-box;
+}
+
+.banner_image {
+    height: 100vmax; /* Set height to full viewport height */
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(note.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative; /* Changed to relative for better positioning */
+}
+
+.form-box {
+    width: 80%; /* Increase width for more space */
+    max-width: 800px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #ffffff;
+    padding: 40px; /* Extra padding around content */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+#marksTable, #chart_div {
+    width: 100%; /* Ensure both table and chart fit within form-box */
+    margin-top: 20px;
+}
+
+table {
+    width: 100%; /* Make table full width */
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px; /* Increase padding for readability */
+    text-align: left;
+}
+
+th {
+    background-color: #04AA6D;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+
+.button-box {
+    width: 100%;
+    margin: 20px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px rgba(255, 97, 36, 0.1); /* Adjusted shadow color and transparency */
+    border-radius: 30px;
+}
+
+.toggle-btn {
+    padding: 10px 20px; /* Adjusted padding */
+    cursor: pointer;
+    background: transparent;
+    border: none; /* Simplified to no border */
+    outline: none;
+    position: relative;
+}
+
+#btn {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 50%; /* Adjusted button width */
+    height: 100%;
+    background: linear-gradient(to right, #ff1e5f, #ffad06);
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.input-group {
+    position: relative; /* Changed position for better control */
+    width: 100%; /* Full width */
+    margin-top: 20px; /* Added margin for spacing */
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none; /* Simplified border */
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+.submit-btn {
+    width: 60%; /* Increased width for a better button */
+    padding: 10px 20px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto; /* Added margin for spacing */
+    background: linear-gradient(to right, #ff1e5f, #ffad06);
+    border: none; /* No border */
+    outline: none;
+    border-radius: 30px;
+}
+
+.check-box {
+    margin: 30px 10px 30px 0;
+}
+
+span {
+    color: #777;
+    font-size: 12px;
+    position: absolute;
+}
+
+h2 {
+    color: #f76605; /* Changed heading color for better visibility */
+}
+
+#login, #register {
+    position: absolute; /* Simplified positioning */
+}
+
+#login {
+    left: 20px; /* Adjusted position for better alignment */
+}
+
+#register {
+    right: 20px; /* Adjusted position for better alignment */
+}
