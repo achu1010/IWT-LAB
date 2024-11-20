@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Book Store - ECE Catalogue</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        
+        #top-frame, #left-frame, #right-frame {
+            padding: 10px;
+            border: 1px solid #ccc;
+            margin: 5px;
+            border-radius: 5px;
+        }
+        
+        #top-frame {
+            background-color: #0073e6;
+            color: #fff;
+            text-align: center;
+        }
+        
+        #left-frame {
+            background-color: #ffcc66;
+            float: left;
+            width: 20%;
+            color: #333;
+        }
+        
+        #right-frame {
+            background-color: #e6f7ff;
+            margin-left: 22%;
+            text-align: center;
+            color: #333;
+        }
+        
+        #navbar a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+        
+        #navbar a:hover {
+            text-decoration: underline;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+        
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        
+        th {
+            background-color: #0073e6;
+            color: #fff;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        
+        img {
+            height: 50px;
+        }
+        
+        button {
+            padding: 5px 10px;
+            background-color: #0073e6;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: #005bb5;
+        }
+        </style>
+</head>
+<body>
+    <div id="top-frame">
+        <img src="logo.png" alt="Logo" style="height: 100px;">
+        <h1>PONDICHERRY UNIVERSITY</h1>
+        <div id="navbar">
+            <a href="home.html">Home</a>
+            <a href="login.html">Login</a>
+            <a href="register.html">Registration</a>
+            <a href="catalogue.html">Catalogue</a>
+            <a href="cart.html">Cart</a>
+        </div>
+    </div>
+
+    <div id="left-frame">
+        <p><a href="cse.html" target="right-frame">CSE</a></p>
+        <p><a href="ece.html" target="right-frame">ECE</a></p>
+        <p><a href="eee.html" target="right-frame">EEE</a></p>
+        <p><a href="civil.html" target="right-frame">CIVIL</a></p>
+    </div>
+
+    <div id="right-frame">
+        <h2>ECE Books</h2>
+        <table>
+            <tr>
+                <th>Cover</th>
+                <th>Book</th>
+                <th>Author</th>
+                <th>Publisher</th>
+                <th>Price</th>
+                <th>Action</th>
+            </tr>
+            <tr>
+                <td><img src="ai.jpeg" alt="AI" style="height: 50px;"></td>
+                <td>AI</td>
+                <td>S. Russel</td>
+                <td>Princeton Hall</td>
+                <td>Rs 63</td>
+                <td><button>Add to cart</button></td>
+            </tr>
+            <tr>
+                <td><img src="vlsi.jpg" alt="VLSI Design" style="height: 50px;"></td>
+                <td>VLSI Design</td>
+                <td>Douglas Smith</td>
+                <td>McGraw Hill</td>
+                <td>Rs 75</td>
+                <td><button>Add to cart</button></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

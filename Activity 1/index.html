@@ -1,0 +1,510 @@
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tags and Descriptions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>HTML Tags and Descriptions</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Tag</th>
+                    <th>Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>&lt;h1&gt;</td>
+                    <td class="tag-name" onclick="showDetails('h1')">Heading 1</td>
+                </tr>
+                <tr class="details" id="h1-details">
+                    <td colspan="2">
+                        <div class="code-example">
+                            <pre>&lt;h1&gt;This is a heading&lt;/h1&gt;</pre>
+                        </div>
+                        <div class="browser-view">
+                            <p><h1>This is a heading</h1></p>
+                        </div>
+                    </td>
+                </tr>
+	<tbody>
+                <tr>
+                    <td>&lt;!--</td>
+                    <td class="tag-name" onclick="showDetails('!--')">comment</td>
+                </tr>
+                <tr class="details" id="!---details">
+                    <td colspan="2">
+                        <div class="code-example">
+                            <pre>&lt;!--This can be viewed in the HTML part of a 
+document--&gt;</pre>
+                        </div>
+                        <div class="browser-view">
+                            <p>Nothing will show.</p>
+                        </div>
+                    </td>
+                </tr>
+	<tbody>
+                <tr>
+                    <td>&lt;a -</td>
+                    <td class="tag-name" onclick="showDetails('a -')">anchor</td>
+                </tr>
+                <tr class="details" id="a --details">
+                    <td colspan="2">
+                        <div class="code-example">
+                            <pre>&lt;a href="https://www.google.com/"&gt;
+Visit google&lt;/a&gt;</pre>
+                        </div>
+                        <div class="browser-view">
+                            <p><a href="https://www.google.com/">
+Visit google</a></p>
+                        </div>
+                    </td>
+                </tr>
+	<tbody>
+                <tr>
+                    <td>&lt;b&gt;</td>
+                    <td class="tag-name" onclick="showDetails('b')">bold</td>
+                </tr>
+                <tr class="details" id="b-details">
+                    <td colspan="2">
+                        <div class="code-example">
+                            <pre>&lt;b&gt;example&lt;/b&gt;</pre>
+                        </div>
+                        <div class="browser-view">
+                            <p><b>example</b></p>
+                        </div>
+                    </td>
+                </tr>
+	<tbody>
+                <tr>
+                    <td>&lt;big&gt;</td>
+                    <td class="tag-name" onclick="showDetails('big')">big(text)</td>
+                </tr>
+                <tr class="details" id="big-details">
+                    <td colspan="2">
+                        <div class="code-example">
+                            <pre>&lt;big&gt;example&lt;/big&gt;</pre>
+                        </div>
+                        <div class="browser-view">
+                            <p><big>example</big></p>
+                        </div>
+                    </td>
+                </tr>
+                
+	<tbody>
+                <tr>
+                    <td>&lt;br&gt;</td>
+                    <td class="tag-name" onclick="showDetails('br')">line break</td>
+                </tr>
+                <tr class="details" id="br-details">
+                    <td colspan="2">
+                        <div class="code-example">
+                            <pre>The contents of your page&lt;br&gt;The contents 
+of your page</pre>
+                        </div>
+                        <div class="browser-view">
+                            <p>The contents of your page<br>The contents 
+of your page</p>
+                        </div>
+                    </td>
+                </tr>
+	<tbody>
+                <tr>
+                    <td>&lt;body&gt;</td>
+                    <td class="tag-name" onclick="showDetails('body')">body of HTML document</td>
+                </tr>
+                <tr class="details" id="body-details">
+                    <td colspan="2">
+                        <div class="code-example">
+                            <pre>&lt;body&gt;The content of 
+your HTML page&lt;/body&gt;</pre>
+                        </div>
+                        <div class="browser-view">
+                            <p><body>The content of 
+your HTML page</body></p>
+                        </div>
+                    </td>
+                </tr>
+	<tbody>
+                <tr>
+                    <td>&lt;center&gt;</td>
+                    <td class="tag-name" onclick="showDetails('center')">center</td>
+                </tr>
+                <tr class="details" id="center-details">
+                    <td colspan="2">
+                        <div class="code-example">
+                            <pre>%lt;center&gt;This will center your 
+contents&lt;/center&gt;</pre>
+                        </div>
+                        <div class="browser-view">
+                            <p><center>This will center your 
+contents</center></p>
+                        </div>
+                    </td>
+                </tr>
+	<tbody>
+                <tr>
+                    <td>&lt;dd&gt;</td>
+                    <td class="tag-name" onclick="showDetails('dd')">definition description</td>
+                </tr>
+                <tr class="details" id="dd-details">
+                    <td colspan="2">
+                        <div class="code-example">
+                            <pre>&lt;dl&gt;
+&lt;dt&gt;Definition Term&lt;/dt&gt;
+&lt;dd&gt;Definition of the term</dd&gt;
+&lt;dt&gt;Definition Term&lt;/dt&gt;
+&lt;dd&gt;Definition of the term&lt;/dd&gt;
+&lt;/dl&gt;</pre>
+                        </div>
+                        <div class="browser-view">
+                            <p><dl>
+<dt>Definition Term</dt>
+<dd>Definition of the term</dd>
+<dt>Definition Term</dt>
+<dd>Definition of the term</dd>
+</dl></p>
+                        </div>
+                    </td>
+                </tr>
+	<tbody>
+                <tr>
+                    <td>&lt;dl&gt;</td>
+                    <td class="tag-name" onclick="showDetails('dl')">definition list</td>
+                </tr>
+                <tr class="details" id="dl-details">
+                    <td colspan="2">
+                        <div class="code-example">
+                            <pre>&lt;dl&gt;
+&lt;dt&gt;Definition Term&lt;/dt&gt;
+&lt;dd&gt;Definition of the term</dd&gt;
+&lt;dt&gt;Definition Term&lt;/dt&gt;
+&lt;dd&gt;Definition of the term&lt;/dd&gt;
+&lt;/dl&gt;</pre>
+                        </div>
+                        <div class="browser-view">
+                            <p><dl>
+<dt>Definition Term</dt>
+<dd>Definition of the term</dd>
+<dt>Definition Term</dt>
+<dd>Definition of the term</dd>
+</dl></p>
+                        </div>
+                    </td>
+                </tr>
+	<tbody>
+                <tr>
+                    <td>&lt;em&gt;</td>
+                    <td class="tag-name" onclick="showDetails('em')">emphasis</td>
+                </tr>
+                <tr class="details" id="em-details">
+                    <td colspan="2">
+                        <div class="code-example">
+                            <pre>This is an &lt;em&gt;Example&lt;/em&gt; of using 
+the emphasis tag</pre>
+                        </div>
+                        <div class="browser-view">
+                            <p>This is an <em>Example</em> of using 
+the emphasis tag</p>
+                        </div>
+                    </td>
+                </tr>
+	<tbody>
+                <tr>
+                    <td>&lt;font&gt;</td>
+                    <td class="tag-name" onclick="showDetails('font')">fond</td>
+                </tr>
+                <tr class="details" id="font-details">
+                    <td colspan="2">
+                        <div class="code-example">
+                            <pre>&lt;font face="Times New 
+Roman"&gt;Example&lt;/font&gt;</pre>
+                        </div>
+                        <div class="browser-view">
+                            <p><font face="Times New 
+Roman">Example</font></p>
+                        </div>
+                    </td>
+                </tr>
+	 <tbody>
+            <!-- Existing Rows -->
+            <tr>
+                <td>&lt;font&gt;</td>
+                <td class="tag-name" onclick="showDetails('font')">font</td>
+            </tr>
+            <tr class="details" id="font-details">
+                <td colspan="2">
+                    <div class="code-example">
+                        <pre>&lt;font face="Times New Roman" size="4"&gt;Example&lt;/font&gt;</pre>
+                    </div>
+                    <div class="browser-view">
+                        <p><font face="Times New Roman" size="4">Example</font></p>
+                    </div>
+                </td>
+            </tr>
+            
+            <!-- New Rows based on the image -->
+            <tr>
+                <td>&lt;form&gt;</td>
+                <td class="tag-name" onclick="showDetails('form')">form</td>
+            </tr>
+            <tr class="details" id="form-details">
+                <td colspan="2">
+                    <div class="code-example">
+                        <pre>&lt;form action="mailto:you@yourdomain.com"&gt;
+    &lt;p&gt;Name: &lt;input name="Name" value="" size="10"&gt;&lt;/p&gt;
+    &lt;p&gt;Email: &lt;input name="Email" value="" size="10"&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;input type="submit"&gt;&lt;/p&gt;
+&lt;/form&gt;</pre>
+                    </div>
+                    <div class="browser-view">
+                        <form action="mailto:you@yourdomain.com">
+                            <p>Name: <input name="Name" value="" size="10"></p>
+                            <p>Email: <input name="Email" value="" size="10"></p>
+                            <p><input type="submit"></p>
+                        </form>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>&lt;h1&gt; to &lt;h6&gt;</td>
+                <td class="tag-name" onclick="showDetails('headings')">heading 1 to 6</td>
+            </tr>
+            <tr class="details" id="headings-details">
+                <td colspan="2">
+                    <div class="code-example">
+                        <pre>&lt;h1&gt;Heading 1 Example&lt;/h1&gt;
+&lt;h2&gt;Heading 2 Example&lt;/h2&gt;
+&lt;h3&gt;Heading 3 Example&lt;/h3&gt;
+&lt;h4&gt;Heading 4 Example&lt;/h4&gt;
+&lt;h5&gt;Heading 5 Example&lt;/h5&gt;
+&lt;h6&gt;Heading 6 Example&lt;/h6&gt;</pre>
+                    </div>
+                    <div class="browser-view">
+                        <h1>Heading 1 Example</h1>
+                        <h2>Heading 2 Example</h2>
+                        <h3>Heading 3 Example</h3>
+                        <h4>Heading 4 Example</h4>
+                        <h5>Heading 5 Example</h5>
+                        <h6>Heading 6 Example</h6>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>&lt;head&gt;</td>
+                <td class="tag-name" onclick="showDetails('head')">head</td>
+            </tr>
+            <tr class="details" id="head-details">
+                <td colspan="2">
+                    <div class="code-example">
+                        <pre>&lt;head&gt;
+    &lt;title&gt;Example&lt;/title&gt;
+&lt;/head&gt;</pre>
+                    </div>
+                    <div class="browser-view">
+                        <p>Contains elements describing the document, like &lt;title&gt;, &lt;meta&gt;, etc.</p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>&lt;hr&gt;</td>
+                <td class="tag-name" onclick="showDetails('hr')">horizontal rule</td>
+            </tr>
+            <tr class="details" id="hr-details">
+                <td colspan="2">
+                    <div class="code-example">
+                        <pre>&lt;hr&gt;</pre>
+                    </div>
+                    <div class="browser-view">
+                        <hr>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>&lt;i&gt;</td>
+                <td class="tag-name" onclick="showDetails('i')">italic</td>
+            </tr>
+            <tr class="details" id="i-details">
+                <td colspan="2">
+                    <div class="code-example">
+                        <pre>&lt;i&gt;Example&lt;/i&gt;</pre>
+                    </div>
+                    <div class="browser-view">
+                        <p><i>Example</i></p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>&lt;img&gt;</td>
+                <td class="tag-name" onclick="showDetails('img')">image</td>
+            </tr>
+            <tr class="details" id="img-details">
+                <td colspan="2">
+                    <div class="code-example">
+                        <pre>&lt;img src="earth.gif" width="41" height="41" border="0" alt="text describing the image"&gt;</pre>
+                    </div>
+                    <div class="browser-view">
+                        <img src="earth.gif" width="41" height="41" border="0" alt="text describing the image">
+                    </div>
+                </td>
+            </tr>
+	 <tr>
+                <td>&lt;input&gt;</td>
+                <td class="tag-name" onclick="showDetails('input1')">input field</td>
+            </tr>
+            <tr class="details" id="input1-details">
+                <td colspan="2">
+                    <div class="code-example">
+                        <pre>&lt;form method="post" action="/cgi-bin/example.cgi"&gt;
+&lt;input type="text" size="10" maxlength="30"&gt;
+&lt;input type="submit" value="Submit"&gt;
+&lt;/form&gt;</pre>
+                    </div>
+                    <div class="browser-view">
+                        <form method="post" action="/cgi-bin/example.cgi">
+                            <input type="text" size="10" maxlength="30">
+                            <input type="submit" value="Submit">
+                        </form>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>&lt;input&gt; (IE)</td>
+                <td class="tag-name" onclick="showDetails('input2')">input field (IE)</td>
+            </tr>
+            <tr class="details" id="input2-details">
+                <td colspan="2">
+                    <div class="code-example">
+                        <pre>&lt;form method="post" action="/cgi-bin/example.cgi"&gt;
+&lt;input type="text" style="color: #ffffff; font-family: Verdana; font-weight: bold; font-size: 10px; background-color: #724a2d;" size="10" maxlength="30"&gt;
+&lt;input type="submit" value="Submit"&gt;
+&lt;/form&gt;</pre>
+                    </div>
+                    <div class="browser-view">
+                        <form method="post" action="/cgi-bin/example.cgi">
+                            <input type="text" style="color: #ffffff; font-family: Verdana; font-weight: bold; font-size: 10px; background-color: #724a2d;" size="10" maxlength="30">
+                            <input type="submit" value="Submit">
+                        </form>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>&lt;input&gt;</td>
+                <td class="tag-name" onclick="showDetails('input3')">input field</td>
+            </tr>
+            <tr class="details" id="input3-details">
+                <td colspan="2">
+                    <div class="code-example">
+                        <pre>&lt;form method="post" action="/cgi-bin/example.cgi"&gt;
+&lt;table border="0" cellspacing="0" cellpadding="3"&gt;
+&lt;td bgcolor="#8463f1"&gt;&lt;input type="text" size="10" maxlength="30"&gt;&lt;/td&gt;
+&lt;td bgcolor="#8463f1" valign="middle"&gt;
+&lt;input type="image" name="Submit" src="yourimage.gif"&gt;&lt;/td&gt;
+&lt;/table&gt;
+&lt;/form&gt;</pre>
+                    </div>
+                    <div class="browser-view">
+                        <form method="post" action="/cgi-bin/example.cgi">
+                            <table border="0" cellspacing="0" cellpadding="3">
+                                <tr>
+                                    <td bgcolor="#8463f1">
+                                        <input type="text" size="10" maxlength="30">
+                                    </td>
+                                    <td bgcolor="#8463f1" valign="middle">
+                                        <input type="image" name="Submit" src="yourimage.gif">
+                                    </td>
+                                </tr>
+                            </table>
+                        </form>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>&lt;input&gt;</td>
+                <td class="tag-name" onclick="showDetails('input4')">input field</td>
+            </tr>
+            <tr class="details" id="input4-details">
+                <td colspan="2">
+                    <div class="code-example">
+                        <pre>&lt;form method="post" action="/cgi-bin/example.cgi"&gt;
+Enter Your Comments:&lt;br&gt;
+&lt;textarea name="Comments" rows="5" cols="20"&gt;&lt;/textarea&gt;&lt;br&gt;
+&lt;input type="submit" value="Submit"&gt;
+&lt;input type="reset" value="Clear"&gt;
+&lt;/form&gt;</pre>
+                    </div>
+                    <div class="browser-view">
+                        <form method="post" action="/cgi-bin/example.cgi">
+                            Enter Your Comments:<br>
+                            <textarea name="Comments" rows="5" cols="20"></textarea><br>
+                            <input type="submit" value="Submit">
+                            <input type="reset" value="Clear">
+                        </form>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>&lt;input&gt;</td>
+                <td class="tag-name" onclick="showDetails('input5')">input field</td>
+            </tr>
+            <tr class="details" id="input5-details">
+                <td colspan="2">
+                    <div class="code-example">
+                        <pre>&lt;form method="post" action="/cgi-bin/example.cgi"&gt;
+&lt;select name="dropdown"&gt;
+&lt;option&gt;Option 1&lt;/option&gt;
+&lt;option&gt;Option 2&lt;/option&gt;
+&lt;option&gt;Option 3&lt;/option&gt;
+&lt;option&gt;Option 4&lt;/option&gt;
+&lt;option&gt;Option 5&lt;/option&gt;
+&lt;option&gt;Option 6&lt;/option&gt;
+&lt;/select&gt;
+&lt;input type="submit" value="Submit"&gt;
+&lt;/form&gt;</pre>
+                    </div>
+                    <div class="browser-view">
+                        <form method="post" action="/cgi-bin/example.cgi">
+                            <select name="dropdown">
+                                <option>Option 1</option>
+                                <option>Option 2</option>
+                                <option>Option 3</option>
+                                <option>Option 4</option>
+                                <option>Option 5</option>
+                                <option>Option 6</option>
+                            </select>
+                            <input type="submit" value="Submit">
+                        </form>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>&lt;input&gt;</td>
+                <td class="tag-name" onclick="showDetails('input6')">input field</td>
+            </tr>
+            <tr class="details" id="input6-details">
+                <td colspan="2">
+                    <div class="code-example">
+                        <pre>&lt;form method="post" action="/cgi-bin/example.cgi"&gt;
+&lt;input type="text" value="example text"&gt;
+&lt;input type="submit" value="Submit"&gt;
+&lt;/form&gt;</pre>
+                    </div>
+                    <div class="browser-view">
+                        <form method="post" action="/cgi-bin/example.cgi">
+                            <input type="text" value="example text">
+                            <input type="submit" value="Submit">
+                        </form>
+                    </div>
+                </td>
+            </tr>
+<!-- Add more rows as needed -->
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tags and Descriptions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>HTML Tags and Descriptions</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Tag</th>
+                    <th>Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>&lt;h1&gt;</td>
+                    <td class="tag-name" onclick="showDetails('h1')">Heading 1</td>
+                </tr>
+                <tr class="details" id="h1-details">
+                    <td colspan="2">
+                        <div class="code-example">
+                            <pre>&lt;h1&gt;This is a heading&lt;/h1&gt;</pre>
+                        </div>
+                        <div class="browser-view">
+                            <p>The &lt;h1&gt; tag defines the most important heading.</p>
+                        </div>
+                    </td>
+                </tr>
+                <!-- Add more rows as needed -->
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

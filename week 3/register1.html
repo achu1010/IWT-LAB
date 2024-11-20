@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Book Store - Registration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        
+        #top-frame, #left-frame, #right-frame {
+            padding: 10px;
+            border: 1px solid #ccc;
+            margin: 5px;
+            border-radius: 5px;
+        }
+        
+        #top-frame {
+            background-color: #0073e6;
+            color: #fff;
+            text-align: center;
+        }
+        
+        #left-frame {
+            background-color: #ffcc66;
+            float: left;
+            width: 20%;
+            color: #333;
+        }
+        
+        #right-frame {
+            background-color: #e6f7ff;
+            margin-left: 22%;
+            text-align: center;
+            color: #333;
+        }
+        
+        #navbar a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+        
+        #navbar a:hover {
+            text-decoration: underline;
+        }
+        </style>
+</head>
+<body>
+    <div id="top-frame">
+        <img src="logo.png" alt="Logo" style="height: 100px;">
+        <h1>PONDICHERRY UNIVERSITY</h1>
+        <div id="navbar">
+            <a href="home.html">Home</a>
+            <a href="login.html">Login</a>
+            <a href="register.html">Registration</a>
+            <a href="catalogue.html">Catalogue</a>
+            <a href="cart.html">Cart</a>
+        </div>
+    </div>
+
+    <div id="left-frame">
+        <p><a href="cse.html" target="right-frame">CSE</a></p>
+        <p><a href="ece.html" target="right-frame">ECE</a></p>
+        <p><a href="eee.html" target="right-frame">EEE</a></p>
+        <p><a href="civil.html" target="right-frame">CIVIL</a></p>
+    </div>
+
+    <div id="right-frame">
+        <h2>Registration</h2>
+        <form action="register.html" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="number">PH NO :</label><br>
+            <input type="text" id="number" name="number"><br><br>
+            <label for="sex">Sex:</label><br>
+            <input type="text" id="text" name="text"><br><br>
+            <label for="birth">Date of Birth:</label><br>
+            <input type="date" id="birth" name="birth"><br><br>
+            <label for="language">Language known:</label><br>
+            <input type="text" id="language" name="language"><br><br>
+            <label for="address">Address:</label><br>
+            <input type="text" id="address" name="address"><br><br>
+            <button type="submit">Register</button>
+            <button type="reset">Reset</button>
+        </form>
+    </div>
+</body>
+</html>
